@@ -1,0 +1,562 @@
+{
+  "version": "6.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "CdkStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "CdkStack.template.json"
+      },
+      "metadata": {
+        "/CdkStack": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.c9ac4b3b65f3510a2088b7fd003de23d2aefac424025eb168725ce6769e3c176.zip",
+              "id": "c9ac4b3b65f3510a2088b7fd003de23d2aefac424025eb168725ce6769e3c176",
+              "packaging": "file",
+              "sourceHash": "c9ac4b3b65f3510a2088b7fd003de23d2aefac424025eb168725ce6769e3c176",
+              "s3BucketParameter": "AssetParametersc9ac4b3b65f3510a2088b7fd003de23d2aefac424025eb168725ce6769e3c176S3Bucket77147E20",
+              "s3KeyParameter": "AssetParametersc9ac4b3b65f3510a2088b7fd003de23d2aefac424025eb168725ce6769e3c176S3VersionKey4253216F",
+              "artifactHashParameter": "AssetParametersc9ac4b3b65f3510a2088b7fd003de23d2aefac424025eb168725ce6769e3c176ArtifactHash4E343C6C"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/construct-compat.ts:431:92)",
+              "LegacyStackSynthesizer.doAddFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:160:23)",
+              "LegacyStackSynthesizer.addFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:71:19)",
+              "CdkStack.addFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack.ts:651:29)",
+              "LegacyStackSynthesizer.addFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:75:25)",
+              "new Asset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:139:40)",
+              "AssetCode.bind (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-lambda/lib/code.ts:180:20)",
+              "new Function (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-lambda/lib/function.ts:559:29)",
+              "SingletonFunction.ensureLambda (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.ts:119:12)",
+              "new SingletonFunction (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.ts:55:32)",
+              "new BucketDeployment (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-deployment/lib/bucket-deployment.ts:176:21)",
+              "new CdkStack (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/lib/cdk-stack.ts:16:5)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/bin/cdk.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:858:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:861:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:227:14)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:513:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/home/bhoomi.bhalani/.nvm/versions/node/v12.18.3/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          },
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.70f969a43311dbe5a010b3be1eebe3b2a9f185c955afce2f0bbac478b21e1be9",
+              "id": "70f969a43311dbe5a010b3be1eebe3b2a9f185c955afce2f0bbac478b21e1be9",
+              "packaging": "zip",
+              "sourceHash": "70f969a43311dbe5a010b3be1eebe3b2a9f185c955afce2f0bbac478b21e1be9",
+              "s3BucketParameter": "AssetParameters70f969a43311dbe5a010b3be1eebe3b2a9f185c955afce2f0bbac478b21e1be9S3Bucket0C22C303",
+              "s3KeyParameter": "AssetParameters70f969a43311dbe5a010b3be1eebe3b2a9f185c955afce2f0bbac478b21e1be9S3VersionKey6FB56AF6",
+              "artifactHashParameter": "AssetParameters70f969a43311dbe5a010b3be1eebe3b2a9f185c955afce2f0bbac478b21e1be9ArtifactHashA2CE2B1D"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/construct-compat.ts:431:92)",
+              "LegacyStackSynthesizer.doAddFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:160:23)",
+              "LegacyStackSynthesizer.addFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:71:19)",
+              "CdkStack.addFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack.ts:651:29)",
+              "LegacyStackSynthesizer.addFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:75:25)",
+              "new Asset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:139:40)",
+              "Object.bind (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-deployment/lib/source.ts:83:23)",
+              "/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-deployment/lib/bucket-deployment.ts:190:83",
+              "Array.map (<anonymous>)",
+              "new BucketDeployment (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-deployment/lib/bucket-deployment.ts:190:51)",
+              "new CdkStack (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/lib/cdk-stack.ts:16:5)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/bin/cdk.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:858:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:861:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:227:14)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:513:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/home/bhoomi.bhalani/.nvm/versions/node/v12.18.3/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkStack/PocS3Bucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PocS3BucketCCC5C421",
+            "trace": [
+              "new Bucket (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3/lib/bucket.ts:1245:22)",
+              "new CdkStack (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/lib/cdk-stack.ts:10:25)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/bin/cdk.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:858:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:861:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:227:14)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:513:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/home/bhoomi.bhalani/.nvm/versions/node/v12.18.3/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkStack/PocS3Bucket/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PocS3BucketPolicyC82F4529",
+            "trace": [
+              "new BucketPolicy (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3/lib/bucket-policy.ts:42:21)",
+              "Bucket.addToResourcePolicy (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3/lib/bucket.ts:469:21)",
+              "Function.addToPrincipalOrResource (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-iam/lib/grant.ts:147:45)",
+              "Bucket.grantPublicAccess (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3/lib/bucket.ts:662:22)",
+              "new Bucket (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3/lib/bucket.ts:1302:12)",
+              "new CdkStack (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/lib/cdk-stack.ts:10:25)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/bin/cdk.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:858:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:861:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:227:14)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:513:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/home/bhoomi.bhalani/.nvm/versions/node/v12.18.3/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkStack/pocS3BucketDeploy/CustomResource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "pocS3BucketDeployCustomResource036BC0EB",
+            "trace": [
+              "new CustomResource (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/custom-resource.ts:115:21)",
+              "new BucketDeployment (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-deployment/lib/bucket-deployment.ts:201:5)",
+              "new CdkStack (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/lib/cdk-stack.ts:16:5)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/bin/cdk.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:858:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:861:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:227:14)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:513:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/home/bhoomi.bhalani/.nvm/versions/node/v12.18.3/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkStack/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756CServiceRole89A01265",
+            "trace": [
+              "new Role (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-iam/lib/role.ts:327:18)",
+              "new Function (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-lambda/lib/function.ts:539:31)",
+              "SingletonFunction.ensureLambda (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.ts:119:12)",
+              "new SingletonFunction (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.ts:55:32)",
+              "new BucketDeployment (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-deployment/lib/bucket-deployment.ts:176:21)",
+              "new CdkStack (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/lib/cdk-stack.ts:16:5)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/bin/cdk.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:858:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:861:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:227:14)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:513:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/home/bhoomi.bhalani/.nvm/versions/node/v12.18.3/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkStack/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756CServiceRoleDefaultPolicy88902FDF",
+            "trace": [
+              "new Policy (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-iam/lib/policy.ts:141:22)",
+              "Role.addToPrincipalPolicy (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-iam/lib/role.ts:368:28)",
+              "Function.addToPrincipal (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-iam/lib/grant.ts:168:61)",
+              "Function.addToPrincipalOrResource (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-iam/lib/grant.ts:119:26)",
+              "Import.grant (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3/lib/bucket.ts:689:27)",
+              "Import.grantRead (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3/lib/bucket.ts:566:17)",
+              "Asset.grantRead (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:198:17)",
+              "Object.bind (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-deployment/lib/source.ts:90:15)",
+              "/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-deployment/lib/bucket-deployment.ts:190:83",
+              "Array.map (<anonymous>)",
+              "new BucketDeployment (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-deployment/lib/bucket-deployment.ts:190:51)",
+              "new CdkStack (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/lib/cdk-stack.ts:16:5)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/bin/cdk.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:858:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:861:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:227:14)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:513:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/home/bhoomi.bhalani/.nvm/versions/node/v12.18.3/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkStack/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C81C01536",
+            "trace": [
+              "new Function (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-lambda/lib/function.ts:593:35)",
+              "SingletonFunction.ensureLambda (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.ts:119:12)",
+              "new SingletonFunction (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.ts:55:32)",
+              "new BucketDeployment (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-deployment/lib/bucket-deployment.ts:176:21)",
+              "new CdkStack (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/lib/cdk-stack.ts:16:5)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/bin/cdk.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:858:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:861:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:227:14)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:513:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/home/bhoomi.bhalani/.nvm/versions/node/v12.18.3/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkStack/AssetParameters/c9ac4b3b65f3510a2088b7fd003de23d2aefac424025eb168725ce6769e3c176/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersc9ac4b3b65f3510a2088b7fd003de23d2aefac424025eb168725ce6769e3c176S3Bucket77147E20",
+            "trace": [
+              "new FileAssetParameters (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:16:32)",
+              "LegacyStackSynthesizer.doAddFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:147:16)",
+              "LegacyStackSynthesizer.addFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:71:19)",
+              "CdkStack.addFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack.ts:651:29)",
+              "LegacyStackSynthesizer.addFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:75:25)",
+              "new Asset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:139:40)",
+              "AssetCode.bind (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-lambda/lib/code.ts:180:20)",
+              "new Function (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-lambda/lib/function.ts:559:29)",
+              "SingletonFunction.ensureLambda (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.ts:119:12)",
+              "new SingletonFunction (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.ts:55:32)",
+              "new BucketDeployment (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-deployment/lib/bucket-deployment.ts:176:21)",
+              "new CdkStack (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/lib/cdk-stack.ts:16:5)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/bin/cdk.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:858:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:861:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:227:14)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:513:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/home/bhoomi.bhalani/.nvm/versions/node/v12.18.3/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkStack/AssetParameters/c9ac4b3b65f3510a2088b7fd003de23d2aefac424025eb168725ce6769e3c176/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersc9ac4b3b65f3510a2088b7fd003de23d2aefac424025eb168725ce6769e3c176S3VersionKey4253216F",
+            "trace": [
+              "new FileAssetParameters (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:21:31)",
+              "LegacyStackSynthesizer.doAddFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:147:16)",
+              "LegacyStackSynthesizer.addFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:71:19)",
+              "CdkStack.addFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack.ts:651:29)",
+              "LegacyStackSynthesizer.addFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:75:25)",
+              "new Asset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:139:40)",
+              "AssetCode.bind (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-lambda/lib/code.ts:180:20)",
+              "new Function (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-lambda/lib/function.ts:559:29)",
+              "SingletonFunction.ensureLambda (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.ts:119:12)",
+              "new SingletonFunction (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.ts:55:32)",
+              "new BucketDeployment (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-deployment/lib/bucket-deployment.ts:176:21)",
+              "new CdkStack (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/lib/cdk-stack.ts:16:5)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/bin/cdk.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:858:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:861:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:227:14)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:513:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/home/bhoomi.bhalani/.nvm/versions/node/v12.18.3/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkStack/AssetParameters/c9ac4b3b65f3510a2088b7fd003de23d2aefac424025eb168725ce6769e3c176/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersc9ac4b3b65f3510a2088b7fd003de23d2aefac424025eb168725ce6769e3c176ArtifactHash4E343C6C",
+            "trace": [
+              "new FileAssetParameters (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:26:34)",
+              "LegacyStackSynthesizer.doAddFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:147:16)",
+              "LegacyStackSynthesizer.addFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:71:19)",
+              "CdkStack.addFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack.ts:651:29)",
+              "LegacyStackSynthesizer.addFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:75:25)",
+              "new Asset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:139:40)",
+              "AssetCode.bind (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-lambda/lib/code.ts:180:20)",
+              "new Function (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-lambda/lib/function.ts:559:29)",
+              "SingletonFunction.ensureLambda (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.ts:119:12)",
+              "new SingletonFunction (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.ts:55:32)",
+              "new BucketDeployment (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-deployment/lib/bucket-deployment.ts:176:21)",
+              "new CdkStack (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/lib/cdk-stack.ts:16:5)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/bin/cdk.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:858:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:861:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:227:14)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:513:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/home/bhoomi.bhalani/.nvm/versions/node/v12.18.3/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkStack/AssetParameters/70f969a43311dbe5a010b3be1eebe3b2a9f185c955afce2f0bbac478b21e1be9/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters70f969a43311dbe5a010b3be1eebe3b2a9f185c955afce2f0bbac478b21e1be9S3Bucket0C22C303",
+            "trace": [
+              "new FileAssetParameters (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:16:32)",
+              "LegacyStackSynthesizer.doAddFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:147:16)",
+              "LegacyStackSynthesizer.addFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:71:19)",
+              "CdkStack.addFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack.ts:651:29)",
+              "LegacyStackSynthesizer.addFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:75:25)",
+              "new Asset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:139:40)",
+              "Object.bind (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-deployment/lib/source.ts:83:23)",
+              "/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-deployment/lib/bucket-deployment.ts:190:83",
+              "Array.map (<anonymous>)",
+              "new BucketDeployment (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-deployment/lib/bucket-deployment.ts:190:51)",
+              "new CdkStack (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/lib/cdk-stack.ts:16:5)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/bin/cdk.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:858:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:861:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:227:14)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:513:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/home/bhoomi.bhalani/.nvm/versions/node/v12.18.3/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkStack/AssetParameters/70f969a43311dbe5a010b3be1eebe3b2a9f185c955afce2f0bbac478b21e1be9/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters70f969a43311dbe5a010b3be1eebe3b2a9f185c955afce2f0bbac478b21e1be9S3VersionKey6FB56AF6",
+            "trace": [
+              "new FileAssetParameters (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:21:31)",
+              "LegacyStackSynthesizer.doAddFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:147:16)",
+              "LegacyStackSynthesizer.addFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:71:19)",
+              "CdkStack.addFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack.ts:651:29)",
+              "LegacyStackSynthesizer.addFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:75:25)",
+              "new Asset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:139:40)",
+              "Object.bind (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-deployment/lib/source.ts:83:23)",
+              "/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-deployment/lib/bucket-deployment.ts:190:83",
+              "Array.map (<anonymous>)",
+              "new BucketDeployment (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-deployment/lib/bucket-deployment.ts:190:51)",
+              "new CdkStack (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/lib/cdk-stack.ts:16:5)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/bin/cdk.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:858:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:861:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:227:14)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:513:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/home/bhoomi.bhalani/.nvm/versions/node/v12.18.3/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkStack/AssetParameters/70f969a43311dbe5a010b3be1eebe3b2a9f185c955afce2f0bbac478b21e1be9/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters70f969a43311dbe5a010b3be1eebe3b2a9f185c955afce2f0bbac478b21e1be9ArtifactHashA2CE2B1D",
+            "trace": [
+              "new FileAssetParameters (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:26:34)",
+              "LegacyStackSynthesizer.doAddFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:147:16)",
+              "LegacyStackSynthesizer.addFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:71:19)",
+              "CdkStack.addFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack.ts:651:29)",
+              "LegacyStackSynthesizer.addFileAsset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:75:25)",
+              "new Asset (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:139:40)",
+              "Object.bind (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-deployment/lib/source.ts:83:23)",
+              "/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-deployment/lib/bucket-deployment.ts:190:83",
+              "Array.map (<anonymous>)",
+              "new BucketDeployment (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-s3-deployment/lib/bucket-deployment.ts:190:51)",
+              "new CdkStack (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/lib/cdk-stack.ts:16:5)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/bin/cdk.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:858:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:861:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:227:14)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:513:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/home/bhoomi.bhalani/.nvm/versions/node/v12.18.3/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkStack/CFDistribution/CFDistribution": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CFDistributionE33945B9",
+            "trace": [
+              "new CloudFrontWebDistribution (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/aws-cloudfront/lib/web_distribution.ts:921:26)",
+              "new CdkStack (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/lib/cdk-stack.ts:22:5)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/bin/cdk.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Module.m._compile (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:858:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/index.ts:861:12)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:227:14)",
+              "Object.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/ts-node/src/bin.ts:513:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1137:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)",
+              "Module.load (internal/modules/cjs/loader.js:985:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:878:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/home/bhoomi.bhalani/.nvm/versions/node/v12.18.3/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:51:24)",
+              "/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:140:5",
+              "visit (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:200:5)",
+              "visit (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:196:5)",
+              "injectMetadataResources (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:131:3)",
+              "Object.synthesize (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stage.ts:184:23)",
+              "process.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/app.ts:123:45)",
+              "Object.onceWrapper (events.js:422:26)",
+              "process.emit (events.js:315:20)",
+              "process.EventEmitter.emit (domain.js:483:12)",
+              "process.emit (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/source-map-support/source-map-support.js:495:21)"
+            ]
+          }
+        ],
+        "/CdkStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:60:27)",
+              "/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:140:5",
+              "visit (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:200:5)",
+              "visit (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:196:5)",
+              "injectMetadataResources (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:131:3)",
+              "Object.synthesize (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/stage.ts:184:23)",
+              "process.<anonymous> (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/@aws-cdk/core/lib/app.ts:123:45)",
+              "Object.onceWrapper (events.js:422:26)",
+              "process.emit (events.js:315:20)",
+              "process.EventEmitter.emit (domain.js:483:12)",
+              "process.emit (/home/bhoomi.bhalani/code/vue-infra-poc/cdk/node_modules/source-map-support/source-map-support.js:495:21)"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
